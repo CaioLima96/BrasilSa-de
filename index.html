@@ -265,6 +265,14 @@
 
                     </div>
 
+                    <div class="row">
+
+                        <div class="col-lg-12">
+                            <div id="map"></div>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </section>
@@ -272,12 +280,82 @@
         </main>
 
         <footer>
-
+         
         </footer>
 
+        <script>
+            function initMap() {
+                var options = {
+                    zoom: 13,
+                    center: {lat: -22.902572, lng: -43.174329}
+                }
+
+                //New Map
+                var map = new google.maps.Map(document.getElementById('map'), options);
+
+                //array dos marcadores
+                var markers = [
+                    {
+                        coords: {lat: -22.905173, lng: -43.174205},
+                        iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+                        content: '<p>Terminal Garagem</p>'
+                    },
+                    {
+                        coords:{lat: -22.907633, lng: -43.175977},
+                        iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+                        content: '<p>Edifício Central</p>'
+                    },
+                    {
+                        coords:{lat: -22.906270, lng: -43.179135},
+                        iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+                        content: '<p>R. da Carioca, 19-1 - Centro</p>'
+                    },
+                    {
+                        coords: {lat: -22.912034, lng: -43.224385},
+                        iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+                        content: '<p>Cefet/RJ</p>'
+                    }
+                ];
+
+                // Loop markers
+                for(var i = 0;i < markers.length;i++){
+                    // Add marker
+                    addMarker(markers[i]);
+                }
+
+                //Add marker function - coords > props
+                function addMarker(props){
+                    
+                    var marker = new google.maps.Marker({
+                        position: props.coords, 
+                        map: map,
+
+                    });
+
+                    //icone personalisado
+                    if(props.iconImage){
+                        //icone
+                        marker.setIcon(props.iconImage);
+                    }
+
+                    //check content
+                    if(props.content){
+                        var infoWindow = new google.maps.InfoWindow({
+                            content: props.content
+                        });
+
+                        marker.addListener('click', function(){
+                            infoWindow.open(map, marker);
+                        });
+                    }
+
+                }
+
+            }
+        </script>
+
         <!-- JS, Popper.js, and jQuery -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCApTD6jKQWd37cr1BJi0zc1Sx77WGWpV4&callback=initMap"async defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAE01LHTxPmipfWPfzCHSymmzlCvuBaj4I&callback=initMap"></script>       
         <script src="js/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
