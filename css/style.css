@@ -14,9 +14,8 @@ header a {
     font-family: 'Roboto Slab', sans-serif;
 }
  
-a:not(.navbar-brand):hover {
-    border-bottom: 1px solid blue;
-    text-decoration: none;
+header a:not(.navbar-brand):hover {
+    border-bottom: 1px solid #000000 !important;
 }
 
 
@@ -255,7 +254,7 @@ footer .fab {
 
 footer .col-lg-2 a:hover {
     text-decoration: none;
-    border-bottom: 1px solid #171B1C !important;
+    
 }
 
 footer .fab:hover {
@@ -276,8 +275,4 @@ footer .col-lg-3 > p + p {
 footer .col-lg-3 a {
     color: white;
     font-style: italic;
-}
-
-footer .col-lg-3 a:hover {
-    border-bottom: 1px solid #cecbcb !important;
 }
