@@ -61,3 +61,16 @@ a:not(.navbar-brand):hover {
     border-color: #2CDCF5;
 }
 
+
+/*parte2*/
+
+#owl-demo .item{
+    margin: 3px;
+}
+
+#owl-demo .item img{
+    display: inline-block;
+    
+    height: auto;
+}
+
