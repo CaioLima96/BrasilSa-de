@@ -171,6 +171,9 @@ header a:not(.navbar-brand):hover {
 
 /*parte5*/
 
+#parte5 {
+    background-color: #9EFCEF !important;
+}
 
 #parte5 h2 {
     font-family: 'Roboto', sans-serif;
