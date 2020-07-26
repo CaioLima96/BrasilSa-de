@@ -252,8 +252,18 @@ footer img {
 }
 
 footer .fab {
-    color: #ffffff !important;
+    color: #C9BCB4 !important;
+    font-size: 22px !important;
 }
-  
 
+footer p {
+    color: #C9BCB4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+footer .col-lg-3 > p + p {
+    font-size: 16px;
+}
 
