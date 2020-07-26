@@ -64,13 +64,33 @@ a:not(.navbar-brand):hover {
 
 /*parte2*/
 
-#owl-demo .item{
-    margin: 3px;
+#parte2 h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px !important;
+    font-weight: 400;
 }
 
-#owl-demo .item img{
-    display: inline-block;
-    
-    height: auto;
+#parte2 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+.owl-carousel img {
+    width: 255px;
+    height: 241px;
+}
+
+#parte2 img + div {
+    background: #eaeff3;
+    margin-top: 0% !important;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    transition: 0.5s;
+}
+
+#parte2 img + div:hover {
+    color: white;
+    background-color: #37B065;
 }
 

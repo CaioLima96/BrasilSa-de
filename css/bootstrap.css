@@ -8095,6 +8095,11 @@ button.bg-dark:focus {
   width: 100% !important;
 }
 
+.w-105 {
+  width: 100% !important;
+  height: 90vh;
+}
+
 .w-auto {
   width: auto !important;
 }
@@ -8272,6 +8277,19 @@ button.bg-dark:focus {
   margin-top: 3rem !important;
 }
 
+.mt-6 {
+  margin-top: 6.5rem!important;
+}
+
+
+.mt-7 {
+  margin-top: 10.313rem !important;
+}
+
+.mt-8 {
+  margin-top: 11.25rem !important;
+}
+
 .mr-5,
 .mx-5 {
   margin-right: 3rem !important;
@@ -8280,6 +8298,10 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+}
+
+.mb-8 {
+  margin-top: 11.25rem !important;
 }
 
 .ml-5,
