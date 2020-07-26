@@ -245,6 +245,15 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 footer {
     background-color: #171B1C;
 }
+
+footer img {
+    width: 160px;
+    height: 128px;
+}
+
+footer .fab {
+    color: #ffffff !important;
+}
   
 
 
