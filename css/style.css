@@ -199,7 +199,7 @@ form label {
     color: black;
 }
 
-input, textarea {
+input {
     width: 100%;
     padding: 10px;
     color: black;
@@ -214,6 +214,11 @@ textarea {
     height: 120px;
     line-height: 20px;
     max-width: 400px;
+    margin-left: 5%;
+    margin-top: 3%;
+    color: black;
+    -webkit-border-radius: 5px;
+    border: 1px solid;
 }
 
 .enviar {
@@ -278,4 +283,24 @@ footer .col-lg-3 > p + p {
 footer .col-lg-3 a {
     color: white;
     font-style: italic;
+}
+
+
+
+/*********************************************@MEDIA************************************/
+
+@media (max-width: 360px) {
+    
+
+    /*parte5*/
+    
+    #parte5 textarea, input:not(.enviar) {
+        width: 124% !important;
+        margin-left: -11.6%;
+    }
+
+    #parte5 form label {
+        margin-left: -11.6% !important;
+    }
+
 }
