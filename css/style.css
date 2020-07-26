@@ -18,3 +18,13 @@ a:not(.navbar-brand):hover {
     border-bottom: 1px solid blue;
     text-decoration: none;
 }
+
+
+/*****************************************MAIN************************************/
+
+/*parte1*/
+
+.container-fluid {
+    padding: 0;
+}
+
