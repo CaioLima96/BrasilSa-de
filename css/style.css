@@ -183,6 +183,10 @@ a:not(.navbar-brand):hover {
     font-size: 40px;
 }
 
+#parte5 .container > .row + .row a {
+    color: #000000;
+}
+
 form {
     font-family: 'Roboto', sans-serif;
     font-size: 16px !important;
@@ -231,6 +235,15 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     box-shadow: 2px 2px 2px #000000;
     color: black;
     font-weight: bold;
+}
+
+
+
+/*footer*/
+
+
+footer {
+    background-color: #171B1C;
 }
   
 
