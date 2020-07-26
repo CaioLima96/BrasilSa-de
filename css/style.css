@@ -42,7 +42,7 @@ a:not(.navbar-brand):hover {
     text-shadow:2px 2px #000000;
 }
 
-#parte1 .main-btn {
+#parte1 .parte1-btn {
     background-color: #2CDCF5;
     color: #FFF;
     text-transform: uppercase;
@@ -54,7 +54,7 @@ a:not(.navbar-brand):hover {
     transition: .5s;
 }
   
-#parte1 .main-btn:hover {
+#parte1 .parte1-btn:hover {
     text-decoration: none;
     color: #FFF;
     background-color: transparent;
@@ -95,3 +95,17 @@ a:not(.navbar-brand):hover {
     background-color: #37B065;
 }
 
+/*parte3*/
+
+#parte3 {
+    background-color: #9EFCEF !important;
+}
+
+#parte3 .card {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#parte3 .card img {
+    border-radius: 5px;
+}
