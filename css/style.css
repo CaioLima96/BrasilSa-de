@@ -511,6 +511,11 @@ footer .col-lg-3 a {
         object-position: 58% !important; 
     }
 
+    /*footer*/
+    footer img {
+        width: 115px !important;
+    }
+
 }
 
 /*****@media de 1024*****/
