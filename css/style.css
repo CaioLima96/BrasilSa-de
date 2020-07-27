@@ -299,7 +299,7 @@ footer .col-lg-3 a {
 
 /*********************************************@MEDIA************************************/
 
-@media (max-width: 411px) {
+@media (max-width: 414px) {
 
     /*parte1*/
     #parte1 h2 {
@@ -362,6 +362,10 @@ footer .col-lg-3 a {
 
 }
 
+
+/*****@media pro caption do carousel*****/
+
+
 @media (max-width: 411px) and (min-width: 361px){
 
     #parte1 .carousel-inner > div .parte1-btn {
@@ -371,5 +375,29 @@ footer .col-lg-3 a {
     #parte1 .carousel-inner > div + div .parte1-btn {
         margin-bottom: 67% !important;
     }
-    
+
+}
+
+@media (max-width: 375px) {
+
+    #parte1 .carousel-inner > div .parte1-btn {
+        margin-bottom: 38% !important;
+    }
+
+    #parte1 .carousel-inner > div + div .parte1-btn {
+        margin-bottom: 49% !important;
+    }
+
+}
+
+@media (max-width: 414px) and (min-width: 411px){
+
+    #parte1 .carousel-inner > div .parte1-btn {
+        margin-bottom: 45% !important;
+    }
+
+    #parte1 .carousel-inner > div + div .parte1-btn {
+        margin-bottom: 54% !important;
+    }
+
 }
