@@ -299,13 +299,14 @@ footer .col-lg-3 a {
     background-color: #f1dfdf;
 }
 
-#parte7 p, a {
+#parte7 p {
     margin: auto;
-    color: black;
+    
     font-size: 16px;
 }
 
 #parte7 a{
+    color: black;
     font-style: italic;
 }
 
