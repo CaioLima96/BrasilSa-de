@@ -301,9 +301,26 @@ footer .col-lg-3 a {
 
 @media (max-width: 360px) {
 
+    /*parte1*/
+    #parte1 h2 {
+        font-size: 32px !important;
+    }
+
+    #parte1 .carousel-inner > div .parte1-btn {
+        margin-bottom: 25% !important;
+    }
+
+    #parte1 .carousel-inner > div + div .parte1-btn {
+        margin-bottom: 40% !important;
+    }
+
+    #parte1 p {
+        font-size: 18px !important;
+    }
+
     /*parte4*/
     #parte4 #map {
-        width: 110% !important;
+        width: 109.5% !important;
         margin-left: -5% !important;
     }
 
@@ -331,6 +348,10 @@ footer .col-lg-3 a {
     footer p {
         text-align: center !important;
         margin-top: 6% !important;
+    }
+
+    footer .col-lg-3 + .col-lg-3 {
+        margin-top: 5% !important;
     }
 
 }
