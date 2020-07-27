@@ -484,6 +484,18 @@ footer .col-lg-3 a {
 
 }
 
+@media (max-width: 450px) and (min-width: 415px){
+
+    #parte1 .carousel-inner > div .parte1-btn {
+        margin-bottom: 10% !important;
+    }
+
+    #parte1 .carousel-inner > div + div .parte1-btn {
+        margin-bottom: 29% !important;
+    }
+
+}
+
 /*****@media de 320*****/
 
 @media (max-width: 320px) {
