@@ -40,8 +40,11 @@ $(document).ready(function(){
 function Enviar() {
  
     var nome = document.getElementById("nomeid");
- 
-    if (nome.value != "") {
+    var fone = document.getElementById("foneid");
+    var email = document.getElementById("emailid");
+    var menssagem = document.getElementById("menssagemid");
+
+    if (nome,fone,email,menssagem.value != "") {
         alert(`Obrigado sr(a) ${nome.value} sua menssagem foi encaminhada com sucesso`);
     }
  
