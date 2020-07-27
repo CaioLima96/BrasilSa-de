@@ -76,6 +76,10 @@ header a:not(.navbar-brand):hover {
     font-weight: 400;
 }
 
+#parte2 img {
+    border-radius: 5px 5px 0px 0px; 
+}
+
 #parte2 h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px !important;
@@ -93,6 +97,7 @@ header a:not(.navbar-brand):hover {
     margin-top: 0% !important;
     padding-top: 16px;
     padding-bottom: 16px;
+    border-radius: 0px 0px 5px 5px;
     transition: 0.5s;
 }
 
@@ -290,10 +295,9 @@ footer .col-lg-3 a {
 /*********************************************@MEDIA************************************/
 
 @media (max-width: 360px) {
-    
 
     /*parte5*/
-    
+
     #parte5 textarea, input:not(.enviar) {
         width: 124% !important;
         margin-left: -11.6%;
