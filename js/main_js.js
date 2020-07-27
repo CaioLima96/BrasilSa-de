@@ -49,3 +49,5 @@ function Enviar() {
     }
  
 }
+
+$('input[name="fone"]').mask('(00) 00000 0000');
