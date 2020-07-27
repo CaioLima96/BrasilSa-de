@@ -41,7 +41,7 @@ function Enviar() {
  
     var nome = document.getElementById("nome");
     var fone = document.getElementById("fone");
-    var email = document.getElementById("emaili");
+    var email = document.getElementById("email");
     var menssagem = document.getElementById("menssagem");
 
     if (nome,fone,email,menssagem.value != "") {
@@ -50,4 +50,7 @@ function Enviar() {
  
 }
 
-$('input[name="fone"]').mask('(00) 00000 0000');
+$(document).ready(function(){
+
+    $('input[name="fone"]').mask('(00) 00000 0000');
+})
