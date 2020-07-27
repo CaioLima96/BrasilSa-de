@@ -250,7 +250,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 /*footer*/
 
 
-footer {
+#parte6 {
     background-color: #171B1C;
 }
 
@@ -295,7 +295,24 @@ footer .col-lg-3 a {
     font-style: italic;
 }
 
+#parte7 {
+    background-color: #f1dfdf;
+}
 
+#parte7 p, a {
+    margin-top: 0.6%;
+    margin-bottom: 0.6%;
+    color: black;
+}
+
+#parte7 a{
+    font-style: italic;
+}
+
+#parte7 a:hover {
+    color: rgb(121, 86, 86);
+    font-weight: bold;
+}
 
 /*********************************************@MEDIA************************************/
 
