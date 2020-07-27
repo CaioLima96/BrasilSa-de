@@ -368,42 +368,7 @@ footer .col-lg-3 a {
     }
 }
 
-
-/*****@media de 1024*****/
-
-@media (max-width: 1024px) and (min-width: 1023px) {
-
-    /*parte1*/
-    #parte1 h2 {
-        font-size: 50px !important;
-    }
-
-    #parte1 .carousel-inner > div .parte1-btn {
-        margin-bottom: 56% !important;
-    }
-
-    #parte1 .carousel-inner > div + div .parte1-btn {
-        margin-bottom: 58% !important;
-    }
-
-    #parte1 p {
-        font-size: 22px !important;
-    }
-
-    #parte1 img {
-        width: 1024px !important;
-        object-fit: cover !important;
-        object-position: 35% !important; 
-    }
-
-    /*parte2*/
-
-    #parte2 h2 {
-        margin-top: 24% !important;
-    }
-
-}
-
+/*@media de 414*/
 @media (max-width: 414px) {
 
     /*parte1*/
@@ -483,26 +448,102 @@ footer .col-lg-3 a {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375px) and (min-width: 362px) and (min-height: 667px) {
 
     #parte1 .carousel-inner > div .parte1-btn {
-        margin-bottom: 38% !important;
+        margin-bottom: 36% !important;
     }
 
     #parte1 .carousel-inner > div + div .parte1-btn {
-        margin-bottom: 49% !important;
+        margin-bottom: 52% !important;
     }
 
 }
 
-@media (max-width: 414px) and (min-width: 411px){
+@media (max-width: 375px) and (min-width: 362px) and (min-height: 812px) {
 
     #parte1 .carousel-inner > div .parte1-btn {
-        margin-bottom: 45% !important;
+        margin-bottom: 60% !important;
+    }
+
+    #parte1 .carousel-inner > div + div .parte1-btn {
+        margin-bottom: 70% !important;
+    }
+
+}
+
+@media (max-width: 414px) and (min-width: 412px){
+
+    #parte1 .carousel-inner > div .parte1-btn {
+        margin-bottom: 43% !important;
     }
 
     #parte1 .carousel-inner > div + div .parte1-btn {
         margin-bottom: 54% !important;
+    }
+
+}
+
+/*****@media de 320*****/
+
+@media (max-width: 320px) {
+
+    /*parte1*/
+    #parte1 h2 {
+        font-size: 26px !important;
+    }
+
+    #parte1 .carousel-inner > div .parte1-btn {
+        margin-bottom: 30% !important;
+    }
+
+    #parte1 .carousel-inner > div + div .parte1-btn {
+        margin-bottom: 40% !important;
+    }
+
+    #parte1 p {
+        font-size: 15px !important;
+    }
+
+    #parte1 img {
+        width: 320px !important;
+        object-fit: cover !important;
+        object-position: 58% !important; 
+    }
+
+}
+
+/*****@media de 1024*****/
+
+@media (max-width: 1024px) and (min-width: 1023px) {
+
+    /*parte1*/
+    #parte1 h2 {
+        font-size: 50px !important;
+    }
+
+    #parte1 .carousel-inner > div .parte1-btn {
+        margin-bottom: 56% !important;
+    }
+
+    #parte1 .carousel-inner > div + div .parte1-btn {
+        margin-bottom: 58% !important;
+    }
+
+    #parte1 p {
+        font-size: 22px !important;
+    }
+
+    #parte1 img {
+        width: 1024px !important;
+        object-fit: cover !important;
+        object-position: 35% !important; 
+    }
+
+    /*parte2*/
+
+    #parte2 h2 {
+        margin-top: 24% !important;
     }
 
 }
