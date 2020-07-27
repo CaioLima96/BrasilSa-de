@@ -319,7 +319,7 @@ footer .col-lg-3 a {
     }
 
     #parte1 img {
-        width: 411px !important;
+        width: 414px !important;
         object-fit: cover !important;
         object-position: 44% !important; 
     }
@@ -400,4 +400,31 @@ footer .col-lg-3 a {
         margin-bottom: 54% !important;
     }
 
+}
+
+/****@media de 768****/
+
+@media (max-width: 768px) {
+
+    #parte1 h2 {
+        font-size: 40px !important;
+    }
+
+    #parte1 .carousel-inner > div .parte1-btn {
+        margin-bottom: 48% !important;
+    }
+
+    #parte1 .carousel-inner > div + div .parte1-btn {
+        margin-bottom: 40% !important;
+    }
+
+    #parte1 p {
+        font-size: 22px !important;
+    }
+
+    #parte1 img {
+        width: 768px !important;
+        object-fit: cover !important;
+        object-position: 35% !important; 
+    }
 }
