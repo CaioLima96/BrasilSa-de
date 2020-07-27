@@ -301,6 +301,12 @@ footer .col-lg-3 a {
 
 @media (max-width: 360px) {
 
+    /*parte4*/
+    #parte4 #map {
+        width: 110% !important;
+        margin-left: -5% !important;
+    }
+
     /*parte5*/
 
     #parte5 textarea, input:not(.enviar) {
