@@ -300,9 +300,9 @@ footer .col-lg-3 a {
 }
 
 #parte7 p, a {
-    margin-top: 0.6%;
-    margin-bottom: 0.6%;
+    margin: auto;
     color: black;
+    font-size: 16px;
 }
 
 #parte7 a{
@@ -455,11 +455,11 @@ footer .col-lg-3 a {
 
     /*footer*/
     footer img {
-        margin-left: 8% !important;
+        margin-left: 3% !important;
     }
 
     footer .fa-facebook-f {
-        margin-left: 10% !important;
+        margin-left: 3% !important;
     }
 
     footer p {
