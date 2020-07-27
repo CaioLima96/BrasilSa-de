@@ -20,9 +20,12 @@ $(document).ready(function(){
                 items: 1
             },
             520:{
+                items: 2
+            },
+            768:{
                 items: 3
             },
-            1000: {
+            1024: {
                 items: 4
             }
             
