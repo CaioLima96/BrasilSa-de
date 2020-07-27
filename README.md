@@ -10,4 +10,4 @@ Temos parceria com diversos hospitais, todos excelentes!
 
 E tudo por um preço que cabe no seu bolso!!!
 
-[Venha fazer parte do BrasilSaúde !!!](brasilsaude.netlify.app/)
+[Venha fazer parte do BrasilSaúde !!!](https://brasilsaude.netlify.app/)
