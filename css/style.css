@@ -255,14 +255,19 @@ footer {
 }
 
 footer img {
-    width: 160px;
-    height: 128px;
+    width: 136px;
+    height: 104px;
+    margin-top: 3.5% !important;
 }
 
 footer .fab {
     color: #C9BCB4 !important;
     font-size: 22px !important;
     margin-right: 8% !important;
+}
+
+footer img + a {
+    margin-left: 6.2% !important;
 }
 
 footer .col-lg-2 a:hover {
@@ -305,6 +310,21 @@ footer .col-lg-3 a {
 
     #parte5 form label {
         margin-left: -11.6% !important;
+    }
+
+    /*footer*/
+
+    footer img {
+        margin-left: 3% !important;
+    }
+
+    footer img + a {
+        margin-left: 7% !important;
+    }
+
+    footer p {
+        text-align: center !important;
+        margin-top: 6% !important;
     }
 
 }
